@@ -1,0 +1,117 @@
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    margin-right: 100px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#menu{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.main{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+
+a {
+    color: white;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:white;
+    padding-left: 100px;
+}
+.p{
+    color: white;
+    padding-left: 100px;
+}
+button{
+    
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    height: 35px;
+    width: 160px;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 15px;
+    margin-left: 100px;
+} 
+.a{
+    display: flex;
+    justify-content:space-between;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    }
+
+
+.box1{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    padding-left: 20px;
+    color: white;
+}
+.box2{
+    height: 250px;
+    width: 200px;
+
+    border-radius: 20px;
+    background-image: url("image3.jpg");
+    background-size: cover;
+    padding-left: 20px;
+    color: white;
+}
+.box3{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    background-image: url("image3.jpg");
+    background-size: cover;
+    padding-left: 20px;
+    color: white;
+}
+
+.box4{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    background-image: url("image.jpg");
+    background-size: cover;
+    padding-left: 20px;
+    color: white;
+}
+
+.box1:hover{
+margin-top: 5px;
+}
+.box2:hover{
+margin-top: 5px;
+}
+.box3:hover{
+margin-top: 5px;
+}
+.box4:hover{   
+margin-top: 5px;
+}
